@@ -5,7 +5,7 @@
 }
 
 .container {
-    max-width: 1170px;
+    width: 0 auto;
     margin: 0 auto;
     color: white;
     text-align: center;
@@ -74,8 +74,35 @@
 
 /* --------------------------------------------------- */
 
+h3 {
+    color: black;
+    text-align: start;
+}
 
+.nested {
+    background-color: #00E164;
+    padding: 20px;
+}
 
+.container-nested {
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+
+.nested__grow {
+    background-color: #00E164;
+    padding: 20px;
+    flex-grow: 3;
+}
+
+.nested__stretch {
+    background-color: #00E164;
+    padding: 20px;
+    flex-grow: 1;
+}
 
 
 
