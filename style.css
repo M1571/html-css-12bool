@@ -21,6 +21,12 @@
     flex-wrap: wrap;
 }
 
+.row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
 /* --------------------------------------------------- */
 /* COL */
 
@@ -110,6 +116,9 @@ h3 {
 .section-2 {
     margin: 10px 0;
 }
+
+
+
 
 
 
