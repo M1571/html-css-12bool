@@ -7,6 +7,8 @@
 .container {
     max-width: 1170px;
     margin: 0 auto;
+    color: white;
+    text-align: center;
 }
 
 .container-fluid {
@@ -71,10 +73,20 @@
 }
 
 /* --------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------------- */
 /* DEBUG */
 
 .debug [class*="col"] {
-    background-color: sandybrown;
+    background-color: #016CFA;
     padding: 20px;
-    border: 2px solid darkviolet;
+    border: 2px solid red;
 }
