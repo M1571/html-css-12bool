@@ -11,10 +11,6 @@
     text-align: center;
 }
 
-.container-fluid {
-    max-width: 100%;
-}
-
 .row {
     display: flex;
     flex-direction: row;
@@ -80,9 +76,11 @@
 
 /* --------------------------------------------------- */
 /* SECTION 1 */
+
 h3 {
     color: black;
     text-align: start;
+    margin-bottom: 5px;
 }
 
 .nested {
@@ -98,22 +96,27 @@ h3 {
     gap: 2px;
 }
 
-.nested__grow {
+.nested__3 {
     background-color: #00E164;
     padding: 20px;
     flex-grow: 3;
 }
 
-.nested__stretch {
+.nested__2 {
+    background-color: #00E164;
+    padding: 20px;
+    flex-grow: 2;
+}
+
+.nested__1 {
     background-color: #00E164;
     padding: 20px;
     flex-grow: 1;
 }
 
 /* --------------------------------------------------- */
-/* SECTION 2 */
 
-.section-2 {
+.section-2, .section-3, .section-4, .section-5 {
     margin: 10px 0;
 }
 
